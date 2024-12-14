@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Enter nrp, names, and address in the fields, then click "Submit" to submit the form:</p>
+
+<form id="frm1" action="http://localhost:3000/students" method="POST">
+  NRP: <input type="text" name="nrp"><br>
+  Nama: <input type="text" name="mhs_name"><br><br>
+  Alamat: <input type="text" name="mhs_addr"><br><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("frm1").submit();
+}
+</script>
+
+</body>
+</html>
+ 
